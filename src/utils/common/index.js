@@ -136,7 +136,7 @@ let panUtil = {
         return this.getUrlPrefix() + '/file/preview?fileId=' + this.handleId(fileId) + '&authorization=' + getToken()
     },
     getUrlPrefix() {
-        return 'http://driveharbor.com/api/'
+        return 'https://driveharbor.com/api/'
     },
     getChunkSize() {
         if (this.getChunkUploadSwitch()) {
